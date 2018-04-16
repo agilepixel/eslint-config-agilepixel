@@ -1,14 +1,16 @@
 {
   "name": "eslint-config-agilepixel",
-  "repository": "https://github.com/agilepixel/eslint-config-agilepixel",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agilepixel/eslint-config-agilepixel"
+  },
   "description": "ESLint ruleset for Agile Pixel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": ">= 4",
-    "eslint-plugin-compat": ">= 2"
+    "eslint": ">= 4"
   },
   "keywords": [
     "eslint",
@@ -16,5 +18,8 @@
   ],
   "author": "Richard Brown",
   "license": "MIT",
-  "version": "0.0.2"
+  "version": "0.0.2",
+  "dependencies": {
+    "eslint-plugin-compat": "^2.2.0"
+  }
 }
