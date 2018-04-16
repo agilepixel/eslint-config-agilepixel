@@ -1,13 +1,14 @@
 {
   "name": "eslint-config-agilepixel",
-  "version": "0.0.1",
-  "description": "ESLint ruleset for Agilepixel",
+  "repository": "https://github.com/agilepixel/eslint-config-agilepixel",
+  "description": "ESLint ruleset for Agile Pixel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 4",
+    "eslint-plugin-compat": ">= 2"
   },
   "keywords": [
     "eslint",
