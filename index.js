@@ -1,8 +1,10 @@
 module.exports = {
+    extends: "eslint:recommended",
     env: {
-      browser: true
+      browser: true,
+      es6: true
     },
-    plugins: ["compat"],
+    plugins: ['compat'],
     rules: {
       'arrow-parens': ['error', 'as-needed'],
       'brace-style': 'error',
