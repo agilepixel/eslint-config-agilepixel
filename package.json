@@ -18,8 +18,11 @@
   ],
   "author": "Richard Brown",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "dependencies": {
-    "eslint-plugin-compat": "^2.2.0"
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jquery": "^1.3.2",
+    "eslint-plugin-unicorn": "^6.0.1"
   }
 }
