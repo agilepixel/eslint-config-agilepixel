@@ -7,6 +7,7 @@
   "plugins": ["compat", "jquery", "import", "unicorn"],
   "rules": {
     "arrow-parens": ["error", "as-needed"],
+    "array-bracket-spacing": ["error", "never"],
     "brace-style": "error",
     "comma-dangle": [
       "warn",
@@ -18,6 +19,7 @@
         "functions": "ignore"
       }
     ],
+    "comma-spacing": "error",
     "consistent-this": "warn",
     "compat/compat": "warn",
     "func-style": ["error", "expression"],
@@ -34,7 +36,9 @@
     "object-shorthand": ["error"],
     "one-var": ["error", "never"],
     "max-len": ["warn", 80, 4],
-    "no-console": "off",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "no-empty": "error",
     "no-fallthrough": "error",
     "no-multi-spaces": "error",
     "no-useless-rename": "error",
@@ -64,7 +68,7 @@
       }
     ],
     "template-curly-spacing": ["error", "never"],
-    "valid-jsdoc": "error",
+    "valid-jsdoc": "warn",
     "yoda": "error",
     "import/no-commonjs": "error",
     "import/no-amd": "error",
