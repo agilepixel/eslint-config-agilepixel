@@ -80,7 +80,7 @@ module.exports = {
       "template-curly-spacing": ["error", "never"],
       "valid-jsdoc": "warn",
       "yoda": "error",
-      "header/header": ["error", "block", ["👾🧩 "+year]],
+      "header/header": ["error", "block", ["! 🧮🧩 "+year]],
       "import/dynamic-import-chunkname": "error",
       "import/no-absolute-path": "error",
       "import/no-commonjs": "error",
