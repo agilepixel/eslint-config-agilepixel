@@ -46,6 +46,7 @@ module.exports = {
       "no-useless-rename": "error",
       "no-unneeded-ternary": "error",
       "no-var": "error",
+      "no-null": "warn",
       "operator-assignment": ["error", "always"],
       "object-curly-newline": ["error", {
           "ObjectExpression": { "multiline": true, "minProperties": 2 },
@@ -58,6 +59,7 @@ module.exports = {
       "prefer-destructuring": "warn",
       "prefer-rest-params": "warn",
       "prefer-spread": "warn",
+      "prefer-set-has": "error",
       "prefer-template": "error",
       "prefer-regex-literals": "error",
       "quotes": ["error", "single"],
