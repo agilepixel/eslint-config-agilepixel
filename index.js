@@ -153,6 +153,8 @@ module.exports = {
       "unicorn/prefer-negative-index": "error",
       "unicorn/prefer-trim-start-end": "error",
       "unicorn/no-null": "warn",
-      "unicorn/prefer-set-has": "error"
+      "unicorn/prefer-set-has": "error",
+      "unicorn/prefer-optional-catch-binding": "error",
+      "no-useless-undefined": "error"
     }
 };
