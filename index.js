@@ -155,6 +155,8 @@ module.exports = {
       "unicorn/no-null": "warn",
       "unicorn/prefer-set-has": "error",
       "unicorn/prefer-optional-catch-binding": "error",
-      "unicorn/no-useless-undefined": "error"
+      "unicorn/no-useless-undefined": "error",
+      "unicorn/prefer-array-find": "error",
+      "unicorn/no-object-as-default-parameter": "error"
     }
 };
