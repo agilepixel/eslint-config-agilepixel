@@ -83,7 +83,7 @@ module.exports = {
       "header/header": ["error", "block", ["! 🧮🧩 "+year]],
       "import/dynamic-import-chunkname": ["error", {
         "importFunctions": ["dynamicImport"],
-        "webpackChunknameFormat": "[0-9a-zA-Z-_/.\[\]]+"
+        "webpackChunknameFormat": "[0-9a-zA-Z-_/.\\[\\]]+"
       }],
       "import/no-absolute-path": "error",
       "import/no-commonjs": "error",
