@@ -81,7 +81,10 @@ module.exports = {
       "valid-jsdoc": "warn",
       "yoda": "error",
       "header/header": ["error", "block", ["! 🧮🧩 "+year]],
-      "import/dynamic-import-chunkname": "error",
+      "import/dynamic-import-chunkname": ["error", {
+        "importFunctions": ["dynamicImport"],
+        "webpackChunknameFormat": "[0-9a-zA-Z-_/.\[\]]+"
+      }],
       "import/no-absolute-path": "error",
       "import/no-commonjs": "error",
       "import/no-duplicates": "error",
