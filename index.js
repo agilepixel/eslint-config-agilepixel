@@ -1,10 +1,6 @@
 const year = new Date().getFullYear();
 module.exports = {
-    extends: [
-        'eslint:recommended',
-        'prettier',
-        'prettier/unicorn'
-    ],
+    extends: ['eslint:recommended', 'prettier', 'prettier/unicorn'],
     env: {
         browser: true,
         es6: true,
@@ -176,6 +172,7 @@ module.exports = {
         'unicorn/prefer-optional-catch-binding': 'error',
         'unicorn/no-useless-undefined': 'error',
         'unicorn/prefer-array-find': 'error',
+        'unicorn/prefer-ternary': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
     },
 };
