@@ -1,6 +1,6 @@
 const year = new Date().getFullYear();
 module.exports = {
-    extends: ['eslint:recommended', 'prettier', 'prettier/react', 'prettier/vue', 'prettier/unicorn'],
+    extends: ['eslint:recommended', 'prettier'],
     env: {
         browser: true,
         es6: true,

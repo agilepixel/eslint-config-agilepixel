@@ -18,7 +18,7 @@
   ],
   "author": "Richard Brown",
   "license": "MIT",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
