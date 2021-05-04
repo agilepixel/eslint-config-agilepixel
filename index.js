@@ -183,5 +183,7 @@ module.exports = {
         'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-ternary': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
+        'unicorn/prefer-array-flat': 'error',
+        'unicorn/prefer-switch': 'warn'
     },
 };
