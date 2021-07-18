@@ -184,6 +184,8 @@ module.exports = {
         'unicorn/prefer-ternary': 'error',
         'unicorn/no-object-as-default-parameter': 'error',
         'unicorn/prefer-array-flat': 'error',
-        'unicorn/prefer-switch': 'warn'
+        'unicorn/prefer-switch': 'warn',
+        'unicorn/no-document-cookie': 'warn',
+        'unicorn/prefer-at': 'error'
     },
 };
