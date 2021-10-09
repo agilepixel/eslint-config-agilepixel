@@ -186,6 +186,8 @@ module.exports = {
         'unicorn/prefer-array-flat': 'error',
         'unicorn/prefer-switch': 'warn',
         'unicorn/no-document-cookie': 'warn',
-        'unicorn/prefer-at': 'error'
+        'unicorn/prefer-at': 'error',
+        'unicorn/no-useless-spread': 'error',
+        'unicorn/no-useless-fallback-in-spread': 'error'
     },
 };
