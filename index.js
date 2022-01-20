@@ -1,11 +1,10 @@
-const year = new Date().getFullYear();
 module.exports = {
-    extends: ['eslint:recommended', 'prettier'],
+    extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
     env: {
         browser: true,
         es6: true,
     },
-    plugins: ['compat', 'header', 'jquery', 'import', 'unicorn'],
+    plugins: ['compat', 'jquery', 'import', 'unicorn'],
     rules: {
         'arrow-parens': ['error', 'as-needed'],
         'array-bracket-spacing': ['error', 'never'],
@@ -83,7 +82,6 @@ module.exports = {
         'template-curly-spacing': ['error', 'never'],
         'valid-jsdoc': 'warn',
         yoda: 'error',
-        'header/header': ['error', 'block', ['! Agile Pixel https://agilepixel.io - ' + year]],
         'import/dynamic-import-chunkname': [
             'error',
             {
