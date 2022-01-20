@@ -188,6 +188,11 @@ module.exports = {
         'unicorn/no-document-cookie': 'warn',
         'unicorn/prefer-at': 'error',
         'unicorn/no-useless-spread': 'error',
-        'unicorn/no-useless-fallback-in-spread': 'error'
+        'unicorn/no-useless-fallback-in-spread': 'error',
+        'unicorn/no-useless-promise-resolve-reject': 'error',
+        'unicorn/relative-url-style': 'error',
+        'unicorn/prefer-json-parse-buffer': 'error',
+        'unicorn/no-thenable': 'warn',
+        'unicorn/template-indent': 'warn'
     },
 };
