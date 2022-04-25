@@ -191,6 +191,13 @@ module.exports = {
         'unicorn/relative-url-style': 'error',
         'unicorn/prefer-json-parse-buffer': 'error',
         'unicorn/no-thenable': 'warn',
-        'unicorn/template-indent': 'warn'
+        'unicorn/template-indent': 'warn',
+        'unicorn/text-encoding-identifier-case': 'error',
+        'unicorn/no-useless-switch-case': 'warn',
+        'unicorn/prefer-modern-math-apis': 'error',
+        'unicorn/no-unreadable-iife': 'warn',
+        'unicorn/prefer-native-coercion-functions': 'error',
+        'no-unused-private-class-members': 'warn',
+        'prefer-object-has-own': 'error'
     },
 };
