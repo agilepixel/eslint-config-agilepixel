@@ -197,6 +197,7 @@ module.exports = {
         'unicorn/prefer-modern-math-apis': 'error',
         'unicorn/no-unreadable-iife': 'warn',
         'unicorn/prefer-native-coercion-functions': 'error',
+        'unicorn/prefer-logical-operator-over-ternary': 'warn',
         'no-unused-private-class-members': 'warn',
         'prefer-object-has-own': 'error'
     },
