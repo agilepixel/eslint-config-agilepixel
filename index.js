@@ -198,6 +198,9 @@ module.exports = {
         'unicorn/no-unreadable-iife': 'warn',
         'unicorn/prefer-native-coercion-functions': 'error',
         'unicorn/prefer-logical-operator-over-ternary': 'warn',
+        'unicorn/no-unnecessary-await': 'error',
+        'unicorn/no-negated-condition': 'warn',
+        'unicorn/no-typeof-undefined': 'warn',
         'no-unused-private-class-members': 'warn',
         'prefer-object-has-own': 'error'
     },
