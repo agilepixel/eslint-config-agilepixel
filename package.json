@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": "^8.5.0"
+    "eslint": "^8.38.0"
   },
   "keywords": [
     "eslint",
@@ -18,7 +18,7 @@
   ],
   "author": "Richard Brown",
   "license": "MIT",
-  "version": "0.19.0",
+  "version": "0.21.0",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
@@ -27,7 +27,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-unicorn": "^45.0.0",
-    "eslint-plugin-vue": "^7.19.1"
+    "eslint-plugin-unicorn": "^47.0.0",
+    "eslint-plugin-vue": "^9.0.0"
   }
 }
