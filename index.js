@@ -12,6 +12,7 @@ export default [
     js.configs.recommended,
     react.configs.flat.recommended,
     prettier,
+    unicorn.configs['flat/recommended'],
     {
         files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
         languageOptions: {
@@ -24,8 +25,7 @@ export default [
         plugins: {
             compat,
             jquery,
-            import: importPlugin,
-            unicorn
+            import: importPlugin
         },
         rules: {
             'arrow-parens': ['error', 'as-needed'],
