@@ -19,7 +19,7 @@
   ],
   "author": "Richard Brown",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
@@ -30,5 +30,8 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-unicorn": "^56.0.0",
     "eslint-plugin-vue": "^9.0.0"
+  },
+  "devDependencies": {
+    "sweetalert2": "^11.15.9"
   }
 }
