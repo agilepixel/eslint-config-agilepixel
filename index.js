@@ -10,7 +10,7 @@ import typescriptParser from '@typescript-eslint/parser';
 
 export default [
   js.configs.recommended,
-  unicorn.configs['flat/recommended'],
+  unicorn.configs.recommended,
   {
     files: ['**/*.{js,mjs,cjs,ts}'],
     languageOptions: {
@@ -218,6 +218,9 @@ export default [
       'unicorn/no-unnecessary-await': 'error',
       'unicorn/no-negated-condition': 'warn',
       'unicorn/no-typeof-undefined': 'warn',
+      'unicorn/no-accessor-recursion': 'error',
+      'unicorn/no-named-default': 'error',
+      'unicorn/no-instanceof-builtins': 'warn',
       'no-unused-private-class-members': 'warn',
       'prefer-object-has-own': 'error'
     }
