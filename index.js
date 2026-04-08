@@ -3,7 +3,7 @@ import react from 'eslint-plugin-react';
 import prettier from 'eslint-config-prettier';
 import compat from 'eslint-plugin-compat';
 import jquery from 'eslint-plugin-jquery';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from 'eslint-plugin-import-x';
 import unicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
@@ -168,12 +168,10 @@ export default [
       'unicorn/consistent-destructuring': 'warn',
       'unicorn/explicit-length-check': 'error',
       'unicorn/no-instanceof-array': 'error',
-      'unicorn/import-index': 'error',
       'unicorn/better-regex': 'error',
       'unicorn/no-array-for-each': 'warn',
       'unicorn/no-for-loop': 'error',
       'unicorn/no-array-push-push': 'warn',
-      'unicorn/no-unsafe-regex': 'error',
       'unicorn/no-unused-properties': 'warn',
       'unicorn/no-zero-fractions': 'error',
       'unicorn/prefer-add-event-listener': 'error',
